@@ -1,7 +1,22 @@
-import '../styles/globals.css'
+import { NextIntlProvider } from "next-intl";
+import NextApp from "next/app";
+
+import "tailwindcss/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <NextIntlProvider messages={pageProps.messages}>
+      <Component {...pageProps} />
+    </NextIntlProvider>
+  );
 }
 
-export default MyApp
+MyApp.getInitialProps = async function getInitialProps(context) {
+  const { locale } = context.router;
+  return {
+    ...(await NextApp.getInitialProps(context)),
+    messages: require(`../messages/${locale}.json`),
+  };
+};
+
+export default MyApp;
