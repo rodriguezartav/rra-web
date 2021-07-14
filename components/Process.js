@@ -11,7 +11,7 @@ const people = [
     name: "Presentaciones Grabadas",
     role: "c/ 2500",
 
-    bio: "Todas las presentaciones quedan grabadas y pueden ser accesadas 'on-demand' utilizando auto-pago de Sinpe",
+    bio: "Todas las presentaciones quedan grabadas y pueden ser accesadas on-demand utilizando auto-pago de Sinpe",
   },
   {
     name: "Conversatorio",
