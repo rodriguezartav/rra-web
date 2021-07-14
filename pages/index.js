@@ -44,6 +44,7 @@ export default function Index(props) {
       </Head>
 
       <main>
+        <Header />
         <Hero />
 
         <QuienSoy />

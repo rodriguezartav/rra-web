@@ -76,8 +76,9 @@ const plans = [
     cta: "Pronto: Compre sus videos en linea",
     priceYearly: 56,
     mainFeatures: [
+      { id: 0, value: "Para quienes no pueden asistir en vivo" },
       { id: 1, value: "Vea los videos en cualquier momento" },
-      { id: 2, value: "Pruebe el pago Pura Vida de Sinpe Movil" },
+      { id: 2, value: "Pague por Sinpe Movil .AI" },
     ],
   },
   {
@@ -105,7 +106,7 @@ const plans = [
     mainFeatures: [
       { id: 1, value: "Q&A abierto al final de las presentaciones" },
       { id: 2, value: "Conversación informal sin formatos ni reglas" },
-      { id: 3, value: "Pruebe el pago Pura Vida de SinpeMovil" },
+      { id: 3, value: "Pruebe Sinpe Movil .AI" },
     ],
   },
 ];

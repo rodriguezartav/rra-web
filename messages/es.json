@@ -1,11 +1,11 @@
 {
     "index":{
       "hero":{  
-          "title": "Quiere entender la transformación digital?",
-          "titleColored": "real",
+          "title": "Quiere entender la ",
+          "titleColored": "transformación digital?",
           "digital":"Digital",
           "mental":"Mental",
-          "tagLine_1": "Hola, soy Roberto Rodríguez y cada semana doy un ''Master Class'' gratuito para actualizar lideres en el uso efectivo de la tecnologia en comercio y gobierno.",
+          "tagLine_1": "Hola, soy Roberto y cada semana hablo sobre el uso efectivo de la tecnologia en comercio y gobierno. Quiere participar?",
           "tagLine_2": ""       
       }
     }

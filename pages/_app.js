@@ -1,12 +1,20 @@
 import { NextIntlProvider } from "next-intl";
 import NextApp from "next/app";
+import useSWR, { SWRConfig } from "swr";
 
 import "tailwindcss/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <NextIntlProvider messages={pageProps.messages}>
-      <Component {...pageProps} />
+      <SWRConfig
+        value={{
+          fetcher: (resource, init) =>
+            fetch(resource, init).then((res) => res.json()),
+        }}
+      >
+        <Component {...pageProps} />
+      </SWRConfig>
     </NextIntlProvider>
   );
 }

@@ -9,36 +9,27 @@ export default function QuienSoy() {
                 Quien es Roberto Rodriguez?
               </h2>
               <p className="mt-4 text-lg text-gray-500">
-                El es un autodidacta en la ingenieria del software, ex Penn
-                State, ex Salesforce, ex Sillicon Valley que se independizó
-                financieramente a los 30 años y ahora es asesor de startups en
+                El es un autodidacta en la ingenieria del software que empezó su
+                aprendisaje a las 9 años. ex Penn State, ex Salesforce, ex
+                Sillicon Valley. Ahora es CTO de los startups de unos amigos en
                 Boulder y Seattle mientras vive 100% off-grid en una sencilla
                 cabina en el bosque de Corcovado, Peninsula de Osa.
               </p>
 
               <p className="mt-4 text-lg text-gray-500">
-                Su vocación esta en la exploración de la mente humana, y para
-                esto se prepara como aprendiz de maestros en ramas Shaolin,
-                Shaman e Hindu. Aprendiz del Taita Lucho Flores, Estudiante de
-                la Montaña Azul y miembro del Self-Realization Fellowship de
-                Parahamsa Yogananda.
+                Hoy en día concentra su preparación en el estudio de la mente, y
+                para esto se prepara como aprendiz del Taita Lucho Flores del
+                Putumayo, Estudiante de la Montaña Azul y miembro del
+                Self-Realization Fellowship de Parahamsa Yogananda.
               </p>
 
               <p className="mt-4 text-lg text-gray-500">
-                Dicidió crear un ``Master Class`` colaborar con el progreso de
-                su comunidad. Inventó y regalo al mundo esta plataforma donde el
-                y otros maestros pueden ejercer independientemente de gobiernos
-                y centros de enseñanza obsoletos.
+                Dicidió crear un ``Master Class`` para lideres por que ve un
+                gran potencial en el uso de tecnología para resolver problemas
+                sociales y comerciales en Latinoamerica - que se puede
+                aprovechar mejor actualizando a los tomadores de decisiones
+                publicos y privados.
               </p>
-
-              <div className="mt-6">
-                <a
-                  href="#"
-                  className="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                >
-                  Si, quiero trabajar con Roberto
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -46,7 +37,7 @@ export default function QuienSoy() {
           <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
             <img
               className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-              src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+              src="https://neilpatel.com/wp-content/themes/neilpatel/images/homepage/bg-about-neil.png"
               alt="Inbox user interface"
             />
           </div>

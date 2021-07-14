@@ -1,12 +1,9 @@
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
   main: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
+    { name: "Privacy", href: "#" },
+    { name: "Terms", href: "#" },
     { name: "Press", href: "#" },
-    { name: "Accessibility", href: "#" },
-    { name: "Partners", href: "#" },
   ],
   social: [
     {
@@ -93,7 +90,8 @@ export default function Example() {
           ))}
         </nav>
         <div className="mt-8 flex justify-center space-x-6">
-          {navigation.social.map((item) => (
+          {navigation.social.map((item) => {
+            return null;
             <a
               key={item.name}
               href={item.href}
@@ -101,11 +99,11 @@ export default function Example() {
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
-            </a>
-          ))}
+            </a>;
+          })}
         </div>
         <p className="mt-8 text-center text-base text-gray-400">
-          &copy; 2020 Workflow, Inc. All rights reserved.
+          &copy; 2021 Roberto Rodriguez Artavia, All rights reserved.
         </p>
       </div>
     </footer>

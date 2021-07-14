@@ -25,7 +25,7 @@ const features = [
     name: "Visión",
     icon: LockClosedIcon,
     description:
-      "El mercadeo big-tech, los influencers y medios de comunicación tienen su proposito. Atravezemos estas cortinas de humo y logre entender por su cuenta lo sencillo que aplicar la tecnologia y ganar.",
+      "El mercadeo big-tech, los influencers y medios de comunicación tienen su proposito. Atravezemos estas cortinas de humo y entienda por su cuenta lo sencillo que es todo ahora",
   },
 ];
 
