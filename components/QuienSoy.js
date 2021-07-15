@@ -31,9 +31,10 @@ export default function QuienSoy() {
         <div className="mt-12 sm:mt-16 lg:mt-0">
           <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
             <Image
-              layout="fill"
+              width="500"
+              height="600"
               className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-              src="https://neilpatel.com/wp-content/themes/neilpatel/images/homepage/bg-about-neil.png"
+              src="/IMG_4547.jpg"
               alt="Inbox user interface"
             />
           </div>
