@@ -1,8 +1,8 @@
 export default function QuienSoy() {
   return (
-    <div className="relative">
+    <div className="relative mt-12">
       <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+        <div className="px-4 max-w-xl mx-auto sm:px-6 lg:pt-16 lg:max-w-none lg:mx-0 lg:px-0">
           <div>
             <div className="mt-6">
               <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
@@ -14,13 +14,6 @@ export default function QuienSoy() {
                 Sillicon Valley. Ahora es CTO de los startups de unos amigos en
                 Boulder y Seattle mientras vive 100% off-grid en una sencilla
                 cabina en el bosque de Corcovado, Peninsula de Osa.
-              </p>
-
-              <p className="mt-4 text-lg text-gray-500">
-                Hoy en día concentra su preparación en el estudio de la mente, y
-                para esto se prepara como aprendiz del Taita Lucho Flores del
-                Putumayo, Estudiante de la Montaña Azul y miembro del
-                Self-Realization Fellowship de Parahamsa Yogananda.
               </p>
 
               <p className="mt-4 text-lg text-gray-500">

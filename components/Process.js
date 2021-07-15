@@ -27,44 +27,6 @@ const people = [
   },
 ];
 
-function Process() {
-  return (
-    <div className="max-w-5xl mx-auto p-10 mt-10 pt-4 bg-gray-200">
-      <p className="mt-2 mb-8 text-xl font-extrabold text-gray-900 tracking-tight sm:text-2xl">
-        Estrenando una nueva forma de compartir conocimiento
-      </p>
-
-      <ul className="space-y-12  lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
-        {people.map((person) => (
-          <li
-            className="b-1  border-1 border-white border-2 p-3"
-            key={person.name}
-          >
-            <div className=" sm:grid sm:grid-cols-2  sm:gap-6 sm:space-y-0 lg:gap-8">
-              <div className="sm:col-span-2">
-                <div className="space-y-4">
-                  <div className="text-lg leading-6 text-center font-medium space-y-1">
-                    <h3>{person.name}</h3>
-                    <p className="text-indigo-600">{person.role}</p>
-                  </div>
-                  <div className="text-lg text-center">
-                    <p className="text-gray-500">{person.bio}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        ))}
-      </ul>
-      <p className=" text-sm text-center max-w-md text-gray-800 mx-auto my-4">
-        En este app es en sí un demo de soluciones para Videoconferencia,
-        "Auto-Sinpe", Call Center Whatsapp, mercadeo, ecommerce, analytics que
-        son mencionadas en las charlas y compartidas mediante open source.
-      </p>
-    </div>
-  );
-}
-
 /* This example requires Tailwind CSS v2.0+ */
 
 const plans = [
@@ -115,7 +77,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Process(props) {
   return (
     <div className="bg-gray-50">
       <div className="relative bg-indigo-600">
@@ -141,9 +103,9 @@ export default function Example() {
           />
 
           <div className="relative space-y-6 lg:space-y-0 lg:grid lg:grid-cols-3">
-            <Videos />
-            <Streaming />
-            <QA />
+            <Videos {...props} />
+            <Streaming {...props} />
+            <QA {...props} />
           </div>
         </div>
       </div>
@@ -155,7 +117,7 @@ export default function Example() {
           </h2>
 
           <a
-            href="#"
+            onClick={props.onRegister}
             className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50 sm:w-auto"
           >
             Registrese gratis con LinkedIn
@@ -303,7 +265,7 @@ function Streaming(props) {
             </div>
           </div>
           <a
-            href="#"
+            onClick={props.onRegister}
             className={classNames(
               plan.featured
                 ? "bg-indigo-600 text-white hover:bg-indigo-700"

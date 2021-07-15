@@ -31,7 +31,7 @@ const features = [
 
 export default function About() {
   return (
-    <div className="relative mt-24 bg-white pt-16 sm:pt-24 lg:pt-32">
+    <div className="relative mt-12 mb-24 bg-white pt-16 sm:pt-24 lg:pt-32">
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <h2 className="text-base font-semibold tracking-wider text-indigo-600 uppercase">
           resumidamente
