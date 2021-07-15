@@ -51,7 +51,7 @@ const plans = [
     cta: "Ingrese con su cuenta de LinkedIn",
     priceYearly: 220,
     mainFeatures: [
-      { id: 1, value: "Presentación cada semána" },
+      { id: 1, value: "Presentación cada semana" },
       { id: 2, value: "Consisa, practica y clara" },
       { id: 3, value: "30 minutos puntiales " },
       { id: 4, value: "Privado y en la Web. Sin instalar Apps" },
@@ -88,9 +88,8 @@ export default function Process(props) {
             <span className="block lg:inline">Masterclass 2021</span>
           </h1>
           <p className="mt-4 text-xl max-w-2xl mx-auto text-indigo-100">
-            Presentaciones "en vivo" basadas en experiencias de primera mano
-            sobre empresas que compiten en los mercados mas demandantes del
-            mundo.
+            Presentaciones en vivo basadas en experiencias de primera mano sobre
+            empresas que compiten en los mercados mas demandantes del mundo.
           </p>
         </div>
 
