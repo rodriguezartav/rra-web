@@ -31,33 +31,31 @@ const navigation = {
 
 export default function Example() {
   return (
-    <header className="bg-white">
+    <header className="bg-white mb-10 mt-10">
       <div className="max-w-7xl mx-auto pt-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav
           className="-mx-5 -my-2 flex flex-wrap justify-center"
           aria-label="Footer"
         >
-          <div className="px-5 py-2">
-            <a className="leading-10 pr-4 text-3xl text-gray-500 hover:text-gray-900">
+          <div className="px-5 py-2 flex">
+            <a className="leading-10 text-purple-600 pr-4 text-3xl  hover:text-gray-900">
               Roberto Rodriguez Artavia
             </a>
 
-            <Dropdown />
+            <div
+              className="bg-gray-500 mt-2 ml-5 mr-5"
+              style={{ width: 1, height: 30 }}
+            />
+            <div className="mt-1">
+              <Dropdown />
+            </div>
           </div>
         </nav>
-        <div className="mt-8 flex justify-center space-x-6">
-          {navigation.social.map((item) => {
-            return null;
-            <a
-              key={item.name}
-              href={item.href}
-              className="text-gray-400 hover:text-gray-500"
-            >
-              <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
-            </a>;
-          })}
-        </div>
+
+        <div
+          className="border-1 w-24 mt-12 mb-4 border mx-auto bg-purple-600"
+          style={{ height: 3 }}
+        ></div>
       </div>
     </header>
   );

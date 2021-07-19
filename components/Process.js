@@ -1,5 +1,26 @@
 import { CheckIcon, XIcon } from "@heroicons/react/solid";
 
+const features = [
+  {
+    name: "Tecnología",
+
+    description:
+      "Siempre basado en casos reales, descubrimos como se aplica HOY el software a los problemas sociales y comerciales en un lenguaje para lideres y tomadores de decisiones",
+  },
+  {
+    name: "Organizacion",
+
+    description:
+      "La transformación de la administración empírica en organizaciones profesionales que toman decisiones basadas en datos es un requisto indispensable para alcanzar ROI en tecnología.",
+  },
+  {
+    name: "Visión",
+
+    description:
+      "El mercadeo big-tech, los influencers y medios de comunicación tienen su proposito. Atravezemos estas cortinas de humo y entienda por su cuenta lo sencillo que es todo ahora",
+  },
+];
+
 const people = [
   {
     name: "Presentaciones en Vivo",
@@ -106,24 +127,6 @@ export default function Process(props) {
             <Streaming {...props} />
             <QA {...props} />
           </div>
-        </div>
-      </div>
-      <div className="bg-indigo-600">
-        <div className="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-            <span className="block">Abierto al publico</span>
-            <span className="block text-sm ">por tiempo limitado</span>
-          </h2>
-
-          <a
-            onClick={props.onRegister}
-            className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50 sm:w-auto"
-          >
-            Registrese gratis con LinkedIn
-          </a>
-          <p className="mt-4 text-lg leading-6 text-indigo-200">
-            Aproveche esta oportunidad HOY, no hay garantia de que este mañana.
-          </p>
         </div>
       </div>
     </div>

@@ -30,6 +30,7 @@ import About from "../components/About";
 import Process from "../components/Process";
 import NewsLetter from "../components/NewsLetter";
 import Footer from "../components/Footer";
+import Feature from "../components/Feature";
 
 import Register from "../components/Register";
 
@@ -57,12 +58,28 @@ export default function Index(props) {
         <Hero onRegister={onRegister} />
 
         <QuienSoy />
-        <About />
-
-        {/* Gradient Feature Section */}
         <Process onRegister={onRegister} />
+        <Feature />
+        <div className="bg-indigo-600">
+          <div className="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+              <span className="block">Abierto al publico</span>
+              <span className="block text-sm ">por tiempo limitado</span>
+            </h2>
 
-        {/* CTA Section */}
+            <a
+              onClick={props.onRegister}
+              className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50 sm:w-auto"
+            >
+              Registrese gratis con LinkedIn
+            </a>
+            <p className="mt-4 text-lg leading-6 text-indigo-200">
+              Aproveche esta oportunidad HOY, no hay garantia de que este
+              mañana.
+            </p>
+          </div>
+        </div>
+
         <NewsLetter />
       </main>
       <Footer />

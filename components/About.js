@@ -42,11 +42,8 @@ export default function About() {
 
         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
           He tenido la suerte de colaborar con las empresas mas efectivas del
-          mundo.
-          <br /> En el éxito de todas ellas hay un comun denominador.{" "}
-          <span className="text-indigo-400 uppercase block">
-            De eso se trata el curso.
-          </span>
+          mundo
+          <br /> En el éxito de todas ellas hay un comun denominador.
         </p>
 
         <div className="mt-6">
