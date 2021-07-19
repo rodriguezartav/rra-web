@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { InboxIcon, SparklesIcon } from "@heroicons/react/outline";
+import Image from "next/image";
 
 export default function Example() {
   return (
@@ -36,13 +37,7 @@ export default function Example() {
                 </div>
                 <footer className="mt-3">
                   <div className="flex items-center space-x-3">
-                    <div className="flex-shrink-0">
-                      <img
-                        className="h-6 w-6 rounded-full"
-                        src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt=""
-                      />
-                    </div>
+                    <div className="flex-shrink-0"></div>
                     <div className="text-base font-medium text-gray-700">
                       Marcia Hill, Digital Marketing Manager
                     </div>
@@ -56,10 +51,10 @@ export default function Example() {
               <iframe
                 src="https://prezi.com/v/embed/uf7xlwfloc8x/"
                 id="iframe_container"
-                frameborder="0"
-                webkitallowfullscreen=""
-                mozallowfullscreen=""
-                allowfullscreen=""
+                frameBorder="0"
+                webkitallowFullScreen=""
+                mozallowFullScreen=""
+                allowFullScreen=""
                 allow="autoplay; fullscreen"
                 height="500"
                 width="889"
@@ -111,10 +106,12 @@ export default function Example() {
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
             <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img
+              <Image
+                width="500"
+                height="600"
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
-                alt="Customer profile user interface"
+                alt="Inbox user interface"
               />
             </div>
           </div>
