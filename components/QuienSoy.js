@@ -8,21 +8,34 @@ export default function QuienSoy() {
           <div>
             <div className="mt-1 pb-20">
               <h2 className="text-3xl  font-light tracking-tight text-gray-600">
-                Quien es Roberto Rodriguez?
+                Roberto - N&M's Brother & Guide
               </h2>
               <p className="mt-4 text-lg text-gray-500">
-                El es un autodidacta en la ingenieria del software que empezó su
-                aprendisaje a las 9 años. ex Penn State, ex Salesforce, ex
-                Sillicon Valley. Ahora es CTO de Mogi en Boulder y NTWTS en
-                Seattle mientras vive 100% off-grid en una sencilla cabina en el
-                bosque de Corcovado, Peninsula de Osa.
+                Roberto was born in a western catholic family and grew up on the
+                rural mountains near the city. Half way throw his life he moved
+                to the remote off-grid jungles of Corcovado on the south of
+                Costa Rica.
               </p>
 
               <p className="mt-4 text-lg text-gray-500">
-                Es un conferencista acostumbrado a simplificar temas de
-                tecnologia para audiencias no tecnicas. Participo del Salesforce
-                One Tour, expositor invitado de Dreamforce en San Francisco,
-                entre otras decenas de charlas en Latam, USA y Europa.
+                It’s always been hard to label him using linear titles like a
+                profession or a career. He’s a backpacker, and has lived as a
+                street arts performer, a Silicon Valley Engineer, a conference
+                speaker for 1000+ audiences, and a surfing beach bum.
+              </p>
+
+              <p className="mt-4 text-lg text-gray-500">
+                There’s a moment where tragic death came to his life while in
+                India and with it the gift of proof. Since then he’s been as
+                focused as any older student can be on the exploration of what’s
+                beyond the mind following the inner arts present in Christian,
+                Hindu, Buddhist, Shaolin and Shamanic philosophies.
+              </p>
+
+              <p className="mt-4 text-lg text-gray-500">
+                An aprentiz to (Shaman) Taita Lucho Flores, student of Sifu Rama
+                from the Blue Mountain and a training member of the
+                self-realization fellowship of Paramhansa Yogananda.
               </p>
             </div>
           </div>

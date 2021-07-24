@@ -38,8 +38,8 @@ export default function Example() {
           aria-label="Footer"
         >
           <div className="px-5 py-2 flex">
-            <a className="leading-10 text-purple-600 pr-4 text-3xl  hover:text-gray-900">
-              Roberto Rodriguez Artavia
+            <a className="leading-10 text-green-600 pr-4 text-3xl  hover:text-gray-900">
+              N&M
             </a>
 
             <div
@@ -53,7 +53,7 @@ export default function Example() {
         </nav>
 
         <div
-          className="border-1 w-24 mt-12 mb-4 border mx-auto bg-purple-600"
+          className="border-1 w-24 mt-12 mb-4 border mx-auto bg-green-600"
           style={{ height: 3 }}
         ></div>
       </div>
@@ -71,7 +71,7 @@ function Dropdown() {
       {({ open }) => (
         <>
           <div>
-            <Menu.Button className="inline-flex justify-center w-full rounded-md shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+            <Menu.Button className="inline-flex justify-center w-full rounded-md shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-green-500">
               ES
               <ChevronDownIcon
                 className="-mr-1 ml-2 h-5 w-5"

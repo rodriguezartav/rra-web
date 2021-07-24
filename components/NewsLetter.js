@@ -30,17 +30,14 @@ export default function Example() {
 
   return (
     <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:py-32 lg:px-8 lg:flex lg:items-center">
+      <div className="max-w-5xl mx-auto py-24 px-4 sm:px-6 lg:py-32 lg:px-8 lg:flex lg:items-center">
         <div className="lg:w-0 lg:flex-1">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Resumen Semanal via WhatsApp
+            Let us share it with you
           </h2>
           <p className="mt-3 max-w-3xl text-lg text-gray-500">
-            Ingrese su teléfono para recibir el link al resumen semanal
-            <br />
-            <span className=" text-indigo-600">
-              servicio gratuito por tiempo limitado
-            </span>
+            We'll send you videos, images, news and schedules to keep you
+            connected to us.
           </p>
         </div>
 
@@ -89,7 +86,7 @@ export default function Example() {
                   onClick={onRegister}
                   className="w-full flex items-center justify-center py-3 px-5 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
-                  Guardar
+                  Subscribe
                 </button>
               </div>
             </div>

@@ -52,10 +52,10 @@ const people = [
 
 const plans = [
   {
-    title: "Videos On Demand",
+    title: "5 day course",
     featured: false,
     description: "Vea o repase dsds",
-    priceMonthly: 2500,
+    priceMonthly: 250,
     cta: "Pronto: Compre sus videos en linea",
     priceYearly: 56,
     mainFeatures: [
@@ -65,10 +65,10 @@ const plans = [
     ],
   },
   {
-    title: "Streaming En Vivo",
+    title: "10 day retreat",
     featured: true,
     description: "The best financial services for your thriving business.",
-    priceMonthly: 0,
+    priceMonthly: 1000,
     cta: "Ingrese con su cuenta de LinkedIn",
     priceYearly: 220,
     mainFeatures: [
@@ -80,7 +80,7 @@ const plans = [
     ],
   },
   {
-    title: "Conversatorio en Vivo",
+    title: "Invest in N&M",
     featured: false,
     description: "",
     priceMonthly: 10000,
@@ -106,11 +106,12 @@ export default function Process(props) {
 
         <div className="relative max-w-2xl mx-auto pt-16 px-4 text-center sm:pt-32 sm:px-6 lg:max-w-7xl lg:px-8">
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
-            <span className="block lg:inline">Masterclass 2021</span>
+            <span className="block lg:inline">Pricing & Schedule</span>
           </h1>
           <p className="mt-4 text-xl max-w-2xl mx-auto text-indigo-100">
-            Presentaciones en vivo basadas en experiencias de primera mano sobre
-            empresas que compiten en los mercados mas demandantes del mundo.
+            Nature & Mind's retreats are not for profit, our financial goal is
+            to break even at the end of each year. We publish and share our
+            accounting books.
           </p>
         </div>
 
